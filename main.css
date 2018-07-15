@@ -145,12 +145,16 @@ header{
     display: none;
 }
 .mobile{
-/*    display: none;*/
+    display: none;
 }
 label{
     margin: 0 40px 0 0;
     font-size: 25px;
     color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 32px;
+    right: 0;
 }
 #toggle{
     display: none;
@@ -169,13 +173,80 @@ label{
 }
 #toggle:checked ~ul {
     display: block;
+}
+
+/*---------new 4k---------*/
+.new4KMovies{
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 160px;
+}
+.sectionTitle h2 , .sectionTitle a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sectionTitle a {
+    margin-left: 20px;
+}
+.sectionTitle{
+    margin: 50px 0 20px 0;
+}
+.new4KMovies ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.new4KMovies ul li img{
+    width: 92%;
+    margin: 4%;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,1000);
+}
+
+/*---------- calltoac---------*/
+
+.callToAction{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto  200px auto;
     
 }
 
+.callToAction h1{
+    margin-bottom: 40px;
+}
 
+/*-------- footer--------*/
+footer a{
+    text-align: none;
+    text-decoration: none;
+    color: var(--main-black);
+}
+footer ul{
+    list-style: none;
+    text-decoration: none;
+    float: right;
+}
+footer ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.copy a , .copy p{
+    display: inline-block;
+    vertical-align: middle;
+} 
+.copy p{
+    margin-left: 20px;
+}
+footer{
+    width: 90%;
+    padding: 0 5%;
+}
+footer ul, .copy{
+    line-height: 80px;
+    display: inline-block;
+}
 
-
-
+/*----------responsive-----------*/
 
 
 
