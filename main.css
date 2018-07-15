@@ -246,7 +246,31 @@ footer ul, .copy{
 }
 
 /*----------responsive-----------*/
-
+@media only screen and (max-width: 1200px){
+    body{
+/*        background-color: red;*/
+    }
+    header{
+        height: 100vh;
+        min-height: 1000px;
+    }
+    header h1{
+        margin: 50px 0 40px 0;
+    }
+    .btnWhite{
+        margin-bottom: 80px;
+    }
+    .callToAction{
+        width: 90%;
+    }
+    .ipad{
+        display: none;
+    }
+    .iphone{
+        display: block;
+        width: 500px;
+    }
+}
 
 
 
