@@ -10,7 +10,7 @@ Ui-Design for Movie Streaming Website
 
 ###### Desktop View
 <p align="center">
-<img src="images/Tablet View.png" width="1200px">
+<img src="images/Tablet View.png" width="1100px">
 </p>
 <br>
 
