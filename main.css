@@ -271,9 +271,61 @@ footer ul, .copy{
         width: 500px;
     }
 }
-
-
-
+@media only screen and (max-width:900px){
+    body{
+/*        background: red;*/
+    }
+    header h1{
+        width 100%;
+    }
+    header{
+        background-position: left center;
+    }
+    .iphone{
+         display: none;
+    }
+    footer ul{
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .copy{
+        text-align: center;
+        display: block;
+    }
+    footer ul li {
+        margin: 0 25px;
+    }
+}
+@media only screen and (max-width:700px){
+    body{
+/*        background: red;*/
+    }
+    .new4KMovies ul {
+        flex-direction: column;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    footer ul li{
+        display: none;
+    }
+    h1{
+        font-size: 36px;
+    }
+    footer{
+/*        height: 400px;*/
+    }
+    header p {
+        display: none;
+    }
+}
 
 
 
