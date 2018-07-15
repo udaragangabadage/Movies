@@ -28,7 +28,7 @@ h2{
     color: var(--main-black);
 }
 p, li{
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     color: var(--main-black)
 }
@@ -64,3 +64,160 @@ p, li{
     top: 0;
     border-radius: 3px;
 }
+.btnColor{
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: var(--main-gradient);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.btnGreen{
+    color: var(--main-green);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+span{
+    color: var(--main-green);
+}
+
+/*--------Header/Nav-------*/
+nav{
+    display: inline-block;
+    width: 100%; 
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 100px;
+}
+.logo{
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+header h1{
+    color: white;
+    width: 55%;
+    margin: 90px 0 40px 0;
+}
+header p{
+    color: white;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+header{
+    background-image: url(images/deadpoolheader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 900px;
+    width: 90%;
+    padding: 0 5%;
+}
+.ipad{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+.iphone{
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    top: 400px;
+    display: none;
+}
+.mobile{
+/*    display: none;*/
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 25px;
+    color: white;
+}
+#toggle{
+    display: none;
+}
+.mobile ul{
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin: 0;
+    background-color: rgba(255,255,255,0.1);
+}
+.mobile ul li {
+    margin 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+#toggle:checked ~ul {
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
