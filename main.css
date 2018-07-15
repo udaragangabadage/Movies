@@ -198,12 +198,11 @@ label{
 }
 .new4KMovies ul li img{
     width: 92%;
-    margin: 4%;
+    margin: 7%;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,1000);
 }
 
 /*---------- calltoac---------*/
-
 .callToAction{
     text-align: center;
     width: 60%;
