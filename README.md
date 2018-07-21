@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Movies.
 Ui-Design for Movie Streaming Website 
 
@@ -31,3 +32,7 @@ Ui-Design for Movie Streaming Website
 <p align="center" >
 <img src="images/Mobile View.png" width="414px">
 </p>
+=======
+# Movies
+Ui Design for Movie Streaming Website
+>>>>>>> master
