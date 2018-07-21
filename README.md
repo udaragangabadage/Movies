@@ -14,7 +14,7 @@ Ui-Design for Movie Streaming Website
 </p>
 <br>
 
-######Tablet Views
+###### Tablet Views
 <p align="center">
 <img src="images/900.png" width="900px">
 </p>
